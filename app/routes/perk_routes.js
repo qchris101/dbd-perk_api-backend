@@ -36,6 +36,13 @@ router.get('/perk', (req, res, next) => {
     // if an error occurs, pass it to the handler
     .catch(next)
 })
+// router.get('/owned-perk', requireToken, (req, res, next) => {
+//   Perk.find()
+//     // respond with status 200 and JSON of the examples
+//     .then(perks => res.status(200).json({ perks: perks }))
+//     // if an error occurs, pass it to the handler
+//     .catch(next)
+// })
 
 // SHOW
 // GET /examples/5a7db6c74d55bc51bdf39793
